@@ -2,7 +2,7 @@ var http = require('http');
 var qs = require('querystring');
 var hbs = require('handlebars')
 var fs = require('fs');
-//middleware is hoisted above get and post requests, srry not srry bout it
+//middleware is hoisted above get and post requests, srry
 module.exports = function () {
   var routes = {get: [], post: [], use: []};
 
